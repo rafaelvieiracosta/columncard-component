@@ -25,13 +25,13 @@ main {
 }
 
 .sedans {
-  background: hsl(31, 77%, 52%);
+  background: #363B47;
 }
 .suvs {
-  background: hsl(184, 100%, 22%);
+  background: #242833;
 }
 .luxury {
-  background: hsl(179, 100%, 13%);
+  background: #0B0C12;
 }
 
 div {
@@ -69,33 +69,34 @@ a {
   border-radius: 100px;
   text-decoration: none;
   margin-top: 95px;
+  color: #18A0FB;
 }
 
 .asedans {
-  color: hsl(31, 77%, 52%);
+  color: #363B47;
 }
 .asedans:hover {
-  background: hsl(31, 77%, 52%);
-  color: hsl(0, 0%, 95%);
-  border: 2px solid hsl(0, 0%, 95%);
+  background: #363B47;
+  color: #18A0FB;
+  border: 2px solid #18A0FB;
 }
 
 .asuvs {
-  color: hsl(184, 100%, 22%);
+  color: #242833;
 }
 .asuvs:hover {
-  background: hsl(184, 100%, 22%);
-  color: hsl(0, 0%, 95%);
-  border: 2px solid hsl(0, 0%, 95%);
+  background: #242833;
+  color: #18A0FB;
+  border: 2px solid #18A0FB;
 }
 
 .aluxury {
-  color: hsl(179, 100%, 13%);
+  color: #0B0C12;
 }
 .aluxury:hover {
-  background: hsl(179, 100%, 13%);
-  color: hsl(0, 0%, 95%);
-  border: 2px solid hsl(0, 0%, 95%);
+  background: #0B0C12;
+  color: #18A0FB;
+  border: 2px solid #18A0FB;
 }
 
 @media (max-width: 980px) {
